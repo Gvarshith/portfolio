@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="light-theme">
+    <!-- Header Section -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">Guvvala Varshith</div>
+            <button class="hamburger" aria-label="Toggle menu">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="menu-bar">
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <img id="sun" class="theme-toggle" src="icon-sun.svg" alt="Theme toggle" />
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Hi, I’m Guvvala Varshith - Web Developer</h1>
+            <p>Building creative and impactful digital experiences.</p>
+            <a href="#projects" class="btn">View My Work</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <img src="profile.jpg" alt="Profile Picture" class="profile-img">
+            <p>I’m a passionate web development fresher eager to create responsive and user-friendly websites. I specialize in front-end development and am excited to work with modern technologies to bring ideas to life.</p>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2>My Projects</h2>
+        <div class="project-timeline">
+            <div class="project-card">
+                <h3>Food Cart Management</h3>
+                <p>This is a simple Food Cart Management System built using HTML, CSS, and JavaScript. The system allows customers to browse food items, add them to their cart, and manage their orders efficiently.</p>
+                <a href="https://gvarshith.github.io/frontend2/" class="btn">View Project</a>
+            </div>
+            <div class="project-card">
+                <h3>Sneakers Product Page</h3>
+                <p>Overview This is a Sneakers Product Page with a built-in Cart Management System using HTML, CSS, and JavaScript. The page allows users to browse sneaker products, add them to the cart, and manage their orders seamlessly.</p>
+                <a href="https://gvarshith.github.io/frontend6/" class="btn">View Project</a>
+            </div>
+            <div class="project-card">
+                <h3>To Do App</h3>
+                <p>This app allows users to create, edit, delete tasks, mark them as completed, and organize their daily activities.</p>
+                <a href="https://gvarshith.github.io/todo-app-main/" class="btn">View Project</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <h2>My Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-item"><span class="skill-icon">HTML</span></div>
+            <div class="skill-item"><span class="skill-icon">CSS</span></div>
+            <div class="skill-item"><span class="skill-icon">JavaScript</span></div>
+            <div class="skill-item"><span class="skill-icon">React</span></div>
+            <div class="skill-item"><span class="skill-icon">Node.js</span></div>
+            <div class="skill-item"><span class="skill-icon">Git</span></div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <form class="contact-form" action="https://form last spree.io/f/manowjay" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+            <div class="form-message"></div>
+        </form>
+        <div class="social-links">
+            <a href="https://x.com/varshithguvvala"><i class="fa-brands fa-x-twitter social"></i></a>
+            <a href="https://www.linkedin.com/in/guvvala-varshith/"><i class="fa-brands fa-linkedin-in social"></i></a>
+            <a href="https://github.com/Gvarshith"><i class="fa-brands fa-github social"></i></a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Guvvala Varshith. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
